@@ -1,11 +1,14 @@
 ---
 layout: blog
 category: blog
+date: "2016-02-16 20:56 +0100"
 splash: ""
-tags: null
+tags: 
+  - "null"
 published: false
-title: ""
+title: test it
 ---
+
 
 ## A New Post
 
