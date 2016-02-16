@@ -15,12 +15,15 @@ markdown: kramdown
 # Prose
 prose:
   rooturl: '_posts'
-  date: CURRENT_DATETIME
   siteurl: 'http://prose.github.io/starter/'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
   metadata:
     _posts:
+      name: "date"
+        field:
+          element: "hidden"
+          value: "CURRENT_DATETIME"
       - name: "category"
         field:
           element: "hidden"
