@@ -2,7 +2,6 @@
 layout: post
 category: blog
 title: First post
-date: {}
 categories: jekyll update
 published: true
 splash: ""
