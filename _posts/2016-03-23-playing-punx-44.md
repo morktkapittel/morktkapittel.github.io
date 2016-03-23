@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 category: post
 date: "2016-03-23 20:43 +0100"
 published: true
