@@ -13,16 +13,16 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
+$text-color:       #828282;
+$background-color: #000;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
+$grey-color:       #fff;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1024px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -50,3 +50,70 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+$light-black: #1A1A1A;
+a {
+  color: #fff;
+  text-decoration: underline;
+  &:hover,
+  &:active,
+  &:visited {
+    @extend a;
+  }
+}
+
+.site-nav {
+  background: $light-black;
+  width: 100%;
+  float: left;
+  padding: 0 30px;
+  line-height: 36px;
+  text-transform: lowercase;
+  .page-link {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+.site-footer,
+.site-header {
+  border: 0;
+}
+.site-footer {
+  background: $light-black;
+}
+#main {
+  width: 80%;
+  float: left;
+}
+#sidebar {
+  width: 20%;
+  float: left;
+}
+#discography {
+  li {
+    list-style-type: none;
+  }
+  ul {
+    margin: 0;
+  }
+  img {
+    width: 100%;
+  }
+}
+@include media-query($on-palm) {
+  #sidebar,
+  #main {
+    width: 100%;
+  }
+  .logo-img {
+    width: 60%;
+  }
+  .site-nav {
+    width: auto;
+    float: right;
+    padding: 0;
+  }
+  #sidebar li {
+    display: inline-block;
+    width: 46%;
+  }
+}
