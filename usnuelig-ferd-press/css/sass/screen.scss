@@ -1,0 +1,65 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "../fontsm/sass/font-awesome.scss";
+
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+#jp_container_1 {
+  color: #fff;
+  bottom: 0;
+  background: #000;
+  padding: 20px;
+  width: 100%;
+  a {
+    color: #fff;
+    i {
+      font-size: 1.5em;
+    }
+  }
+  h1 {
+    padding: 0 20px;
+  }
+
+  .jp-controls {
+    width: 100%;
+    padding: 20px;
+    li {
+      display: inline;
+    }
+    h1 {
+      color: #fff;
+    }
+  }
+  .jp-playlist-item {
+    font-weight: 100;
+    opacity: .7;
+    font-size: .7em;
+    line-height: 1.6em;
+  }
+  .jp-playlist {
+    padding: 0 20px;
+  }
+  .jp-playlist, .jp-playlist-current {
+    display: inline-block;
+  }
+  .jp-playlist-current {
+    font-weight: bold;
+    opacity: 1;
+  }
+  .jp-current-time, .jp-duration {
+    display: none;
+  }
+}
+#slides img {
+  width: 100%;
+}
