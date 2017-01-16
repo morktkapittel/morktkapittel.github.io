@@ -18,21 +18,18 @@ a {
   color: #fff;
   bottom: 0;
   background: #000;
-  padding: 20px;
   width: 100%;
+  padding: 10px;
   a {
     color: #fff;
     i {
       font-size: 1.5em;
     }
   }
-  h1 {
-    padding: 0 20px;
-  }
 
   .jp-controls {
     width: 100%;
-    padding: 20px;
+    padding: 10px 0;
     li {
       display: inline;
     }
@@ -45,9 +42,6 @@ a {
     opacity: .7;
     font-size: .7em;
     line-height: 1.6em;
-  }
-  .jp-playlist {
-    padding: 0 20px;
   }
   .jp-playlist, .jp-playlist-current {
     display: inline-block;
