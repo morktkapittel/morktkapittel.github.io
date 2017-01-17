@@ -1,18 +1,16 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "compass/reset";
 @import "../fontsm/sass/font-awesome.scss";
-
-
 body {
   font-family: 'Lato', sans-serif;
 }
 a {
   color: #000;
   text-decoration: none;
+}
+p {
+  font-size: 1em;
+  line-height: 1.6em;
+  padding: 10px 20px;
 }
 #jp_container_1 {
   color: #fff;
@@ -26,7 +24,6 @@ a {
       font-size: 1.5em;
     }
   }
-
   .jp-controls {
     width: 100%;
     padding: 10px 0;
@@ -55,5 +52,6 @@ a {
   }
 }
 #slides img {
-  width: 100%;
+  width: 50%;
+  float: left;
 }
